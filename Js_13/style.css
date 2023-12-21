@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    overflow: hidden;
+     margin: 0; 
+}
+/* .block{
+position: absolute;
+border-radius: 50%;
+width: 10vw;
+height: 10vw;
+background-color: tomato;
+} */
+.container{
+    width: 100vw;
+    height: 5vw;
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.plus{
+    width: 5vw;
+    height: 2vw;
+    border-radius: 30%;
+    background-color: turquoise;
+    color: white;
+}
+.minus{
+    width: 5vw;
+    height: 2vw;
+    border-radius: 30%;
+    background-color: red;
+    color: white;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:turquoise;
+}
